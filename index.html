@@ -2,135 +2,214 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>Résumé</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <main>
-        <div class="resume">
-            <div class="container">
-                <div class="resume__block">
-                    <h1 class="contact-info__header">Bulka</h1>
-                    <h3 class="contact-info__sub-header">Senior Hooman Manager</h3>
 
-                    <div class="contact_info_container fh">
-                        <div class="contact-info__block">
-                            <a href="" rel="author" class="contact-info__item">
-                                <div class="contact-info__item-icon-wrapper">
-                                    <svg class="contact-info__item-icon" xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 384 512">
-                                        <path
-                                            d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z">
-                                        </path>
-                                    </svg>
-                                </div>
-                                <span>Lviv, Ukraine</span>
-                            </a>
-                        </div>
-
-                        <div class="contact-info__block contact-info__block--center">
-                            <img class="contact-info__avatar" src="assets/avatar.png" alt="Avatar">
-                        </div>
-
-                        <div class="contact-info__block">
-
-                            <a href="https://ua.linkedin.com/company/binary-studio_241166" rel="author"
-                                class="contact-info__item">
-                                <div class="contact-info__item-icon-wrapper">
-                                    <svg class="contact-info__item-icon" xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 448 512">
-                                        <path
-                                            d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z">
-                                        </path>
-                                    </svg>
-                                </div>
-                                <span>binary-studio</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+    <!-- Main header-->
+    <header>
+        <div class=main-header-section>
+            <div class="about-me-photo">
+                <img src="img/photo.jpeg" alt="photo">
             </div>
-            <div class="container">
-                <div class="resume__block">
-                    <div class="intro">
-                        <div class="intro__icon-wrapper">
-                            <svg class="intro__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                                <path
-                                    d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z">
-                                </path>
-                            </svg>
-                        </div>
-                        <p class="intro_text">Meow.
-                            I am a Binary Studio cat. Still got 7 lives. Work in IT, Full Stack Evil,
-                            all I do is sleep and try to help out hoomans with their projects whenever
-                            they need me.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="resume__block">
-                    <div class="skills">
-                        <h3 class="skills__header">Skills</h3>
-                        <p class="skills__text">Sleep, eat, more sleep, meow, mrrr, purr. </p>
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="resume__block">
-                    <div class="main-info fh">
-
-                        <div class="experiences">
-                            <h3 class="experiences__header">Experience</h3>
-                            <div class="experiences__company">
-                                <div class="experiences__company-header">
-                                    <span class="experiences__company-header-durability">For whole my life</span>
-                                    <h3 class="experiences__company-header-name">BinaryStudio</h3>
-                                </div>
-
-                                <div class="experiences__company-project">
-                                    <span class="experiences__company-project-role">Binary Studio Cat</span>
-                                    <h3 class="experiences__company-project-name">Hooman project</h3>
-                                    <ul class="experiences__company-project-responsibilities">
-                                        <li>Supported hoomans</li>
-                                        <li>Slept all the time</li>
-                                        <li>Lied on the keyboard</li>
-                                        <li>Watched my hoomans working</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="additional-info fv">
-                            <div class="additional-info__education">
-                                <h3 class="additional-info__education-header">Education</h3>
-                                <div class="additional-info__education-university">
-                                    <span class="additional-info__education-university-durability">2021</span>
-                                    <h3 class="additional-info__education-university-speciality">Cat track</h3>
-                                    <p class="additional-info__education-university-name">Binary Studio Academy</p>
-                                </div>
-                            </div>
-
-                            <div class="additional-info__languages">
-                                <h3 class="additional-info__languages-header">Languages</h3>
-                                <p class="additional-info__languages-item">
-                                    Meow dialect
-                                </p>
-                                <p class="additional-info__languages-item">
-                                    Ukrainian (understand)
-                                </p>
-                                <p class="additional-info__languages-item">
-                                    English (don't understand)
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="about-me-name">
+                <h2 class="about-me-profession">Position: Web Developer</h2>
+                <p class="about-me-city">Kyiv</p>
+                <h1 class="about-me-fullname">Yevhen Diachenko</h1>
             </div>
         </div>
-    </main>
+    </header>
+    <!--main container-->
+    <div class="main-section">
+        <!--main content section-->
+        <div class="main-content-section">
+            <!--about me container-->
+            <div class="about-me-section">
+
+                <p class="about-me-description">
+                    Age: 39
+                </p>
+            </div>
+            <!--my project container-->
+            <div class="myprojects-section">
+                <h3 class="main-content-title">Projects</h3>
+                <ol class="myprojects-list">
+                    <li class="myprojects-item">
+                        <span class="myprojects-text">
+                            <a href="https://github.com/Johnnyua/burdauasite"
+                                class="myprojects-link">https://github.com/Johnnyua/burdauasite</a>
+                            <span>........................................</span>
+                            <span class="myprojects-bracket">[</span><span> JS, HTML5, CSS3, Figma - commercial
+                            </span><span class="myprojects-bracket">]</span>
+                        </span>
+                    </li>
+                    <li class="myprojects-item">
+                        <span class="myprojects-text">
+                            <a href="https://github.com/Johnnyua/burdauaintranet"
+                                class="myprojects-link">https://github.com/Johnnyua/burdauaintranet</a>
+                            <span>.............................</span>
+                            <span class="myprojects-bracket">[</span><span> Vue3 JS </span><span
+                                class="myprojects-bracket">]</span>
+                        </span>
+                    </li>
+                    <li class="myprojects-item">
+                        <span class="myprojects-text">
+                            <a href="https://github.com/Johnnyua/itea"
+                                class="myprojects-link">https://github.com/Johnnyua/itea</a>
+                            <span>...........................................................</span>
+                            <span class="myprojects-bracket">[</span><span> JS, HTML5, CSS3 </span><span
+                                class="myprojects-bracket">]</span>
+                        </span>
+                    </li>
+                    <li class="myprojects-item">
+                        <span class="myprojects-text">
+                            <a href="https://github.com/Johnnyua/git-itea-html-css-project"
+                                class="myprojects-link">https://github.com/Johnnyua/git-itea-html-css-project</a>
+                            <span>..........</span>
+                            <span class="myprojects-bracket">[</span><span> HTML5, CSS3 </span><span
+                                class="myprojects-bracket">]</span>
+                        </span>
+                    </li>
+                    <li class="myprojects-item">
+                        <span class="myprojects-text">
+                            <a href="https://github.com/Johnnyua/git-itea-js-base/"
+                                class="myprojects-link">https://github.com/Johnnyua/git-itea-js-base/</a>
+                            <span>...............................</span>
+                            <span class="myprojects-bracket">[ </span><span> JavaScript </span><span
+                                class="myprojects-bracket">]</span>
+                        </span>
+                    </li>
+                </ol>
+            </div>
+            <!--my work experience container-->
+            <div>
+                <h3 class="main-content-title">Work Experience</h3>
+                <!--company 3-->
+                <div class="my-work-experience-company">
+                    <h4 class="my-work-experience-position"> Chief of IT department(4 employees) <span
+                            class="my-working-name">DP "Burda Ukraine"</span></h4>
+                    <p class="my-working-period">September 2018 - up to now<span class="my-working-period-delimiter"> |
+                        </span>Ukraine</p>
+                    <ul class="my-working-list">
+                        <li class="my-working-item">
+                            1С developer
+                        </li>
+                        <li class="my-working-item">
+                            QlikView developer
+                        </li>
+                        <li class="my-working-item">
+                            Ensured efficiency, effectiveness, and viability of all IT systems and tech processes.
+                        </li>
+                    </ul>
+                </div>
+                <!--company 2-->
+                <div class="my-work-experience-company">
+                    <h4 class="my-work-experience-position"> System administretor <span class="my-working-name">DP
+                            "Burda Ukraine"</span></h4>
+                    <p class="my-working-period">October 2010 - September 2018<span class="my-working-period-delimiter">
+                            | </span>Ukraine</p>
+                    <ul class="my-working-list">
+                        <li class="my-working-item">
+                            Configured AD, GPO, DHSP, DNS, Exchange of Windows 2019, 2008r2 servers with active
+                            directory domain.
+                        </li>
+                        <li class="my-working-item">
+                            Configured RDP with GPO and Remote profiles
+                        </li>
+                        <li class="my-working-item">
+                            Administration VmWare, Veeam backup. Integration Veeam backup with AWS S3.
+                        </li>
+                        <li class="my-working-item">
+                            Configured SCCM to manage infrastructure.
+                        </li>
+                    </ul>
+                </div>
+                <!--company 1-->
+                <div class="my-work-experience-company">
+                    <h4 class="my-work-experience-position">System administretor <span class="my-working-name">Sokos
+                            LLC</span></h4>
+                    <p class="my-working-period">June 2007 - September 2010<span class="my-working-period-delimiter"> |
+                        </span>Ukraine</p>
+                    <ul class="my-working-list">
+                        <li class="my-working-item">
+                            Configured AD, GPO, DHSP, DNS of Windows 2003 servers.
+                        </li>
+                        <li class="my-working-item">
+                            Support about 50 uses and 2 offices.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--education-->
+            <div class="my-education-section">
+                <h4 class="my-education-title">Education</h4>
+                <p class="my-education-name">National Aerospace University «Kharkiv Aviation Institute»</p>
+                <p class="my-education-specialty">Programming</p>
+                <p class="my-education-period">September 2001 - June 2007<span class="my-education-period-delimiter"> |
+                    </span>Ukraine</p>
+            </div>
+        </div>
+
+        <!--side bar container-->
+        <aside class="sidebar-section">
+            <!-- <img src="img/photo.jpg" alt="my photo"> -->
+            <!--contacts section-->
+            <div class="contacts-section">
+                <h3 class="sidebar-title-section">Contacts</h3>
+                <div>
+                    <span class="contacts-section-type">C:</span>
+                    <a class="contacts-section-link" href="tel:+(380) 95 730-65-19">+(380) 95 730-65-19</a>
+                </div>
+                <div>
+                    <span class="contacts-section-type">E:</span>
+                    <a class="contacts-section-link" href="mailto:ev.dyachenko@gmail.com">ev.dyachenko@gmail.com</a>
+                </div>
+            </div>
+            <!--tech skills container-->
+            <div class="tech-skills-section">
+                <h3 class="sidebar-title-section">Tech Skills</h3>
+                <ul class="skills-list">
+                    <li class="skills-item"><span class="skills-item-text">Vue3</span> </li>
+                    <li class="skills-item"><span class="skills-item-text">JavaScript</span></li>
+                    <li class="skills-item"><span class="skills-item-text">Node JS (theoretical)</span> </li>
+                    <li class="skills-item"><span class="skills-item-text">HTML5</span> </li>
+                    <li class="skills-item"><span class="skills-item-text">CSS3</span></li>
+                    <li class="skills-item"><span class="skills-item-text">GIT</span></li>
+
+                </ul>
+            </div>
+            <!--soft skills container-->
+            <div class="soft-skills-section">
+                <h3 class="sidebar-title-section">Soft Skills</h3>
+                <ul class="skills-list">
+                    <li class="skills-item"><span class="skills-item-text">Teamwork</span></li>
+                    <li class="skills-item"><span class="skills-item-text">Problem solving</span></li>
+                    <li class="skills-item"><span class="skills-item-text">Communication</span></li>
+                    <li class="skills-item"><span class="skills-item-text">Willingness to learn</span></li>
+                    <li class="skills-item"><span class="skills-item-text">Scrum(Jira)</span></li>
+                </ul>
+            </div>
+            <!--courses container-->
+            <div class="courses-section">
+                <h3 class="sidebar-title-section">Courses</h3>
+                <ul class="skills-list">
+                    <li class="skills-item"><span class="skills-item-text">ITEA Front-End Advanced
+                            <br />(Nov 2022)</span>
+                    </li>
+                    <li class="skills-item"><span class="skills-item-text">ITEA Front-End Basic<br />
+                            (Feb 2022)</span>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+    </div>
+
 </body>
 
 </html>
